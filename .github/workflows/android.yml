@@ -21,7 +21,7 @@ jobs:
           distribution: 'temurin'
 
       - name: Gradle Wrapper 권한 수정
-         run: |
+         run:
               chmod +x gradlew
               chmod 644 gradle/wrapper/gradle-wrapper.jar
 
