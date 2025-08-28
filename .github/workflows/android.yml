@@ -20,12 +20,6 @@ jobs:
           java-version: '17'
           distribution: 'temurin'
 
-      - name: gradlew 실행 권한 설정
-         run: chmod +x ./gradlew
-
-      - name: gradle-wrapper.jar 읽기 권한 설정
-         run: chmod 644 gradle/wrapper/gradle-wrapper.jar
-
       - name: Grant execute permission for gradlew
         run: chmod +x gradlew
 
